@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-image: url('/ok.png');
 }
 
 nav {
@@ -39,6 +40,9 @@ nav a[aria-current='page'] {
 main {
   padding: 1rem;
 }
+.container h1{
+  font-size: 5rem;
+}
 
 .container {
   height: 100vh;
@@ -51,13 +55,19 @@ main {
   display: flex;
 }
 #labl {
+  height: 100px;
   width: 150px;
-  border: 2px solid black;
+ background: transparent;
+  align-items: center;
   font-size: 4rem;
+  color: skyblue;
+  display: flex;
+  justify-content: center;
 }
 button {
   border-radius: 20px;
   width: 150px;
   font-size: 3rem;
   margin: 20px 20px;
+  color:#000;
 }
